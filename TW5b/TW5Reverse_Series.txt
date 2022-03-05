@@ -1,0 +1,19 @@
+package TW5;
+import java.lang.Thread;
+public class Reverse_Series extends Thread {
+ private int N;
+ Reverse_Series(int n)
+ {
+ N = n;
+ }
+ public void run()
+ {
+ System.out.println("Reverse Series: ");
+ for(int i=N;i>0;i--)
+ {
+ System.out.print(i + " ");
+ }
+ System.out.println("");
+ System.out.println("Reverse series child thread exiting.......");
+ }
+} 
