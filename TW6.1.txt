@@ -71,14 +71,17 @@ public class tw6 {
  PopThread po1 = new PopThread("Pop Thread 1", s);
  PopThread po2 = new PopThread("Pop Thread 2", s);
  PopThread po3 = new PopThread("Pop Thread 3", s);
+  PopThread po4 = new PopThread("Pop Thread 4", s);
  // Start push child thread
  pu1.start();
  pu2.start();
+ po1.start();
  pu3.start();
+ po2.start();
  pu4.start();
  // Start pop child thread
- po1.start();
- po2.start();
  po3.start();
+ po4.start();
+ 
  }
 } 
