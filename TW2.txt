@@ -4,7 +4,8 @@ public class TW2 {
 static void createArray(ArrayList ai,int in) 
 {
 Scanner s = new Scanner(System.in);
-System.out.println("Enter element to be added to integer array list : "); int ele = s.nextInt();
+System.out.println("Enter element to be added to integer array list : ");
+int ele = s.nextInt();
 ai.add(ele);
 System.out.println("The integer array is : "+ ai); 
 	System.out.println("Its size is : "+ai.size()); }
